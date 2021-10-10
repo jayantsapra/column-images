@@ -1,0 +1,22 @@
+article {
+   
+	column-count: 3;
+    background-color: #e7f5fe;
+	
+    column-gap: 4em;
+    column-rule: 2px solid lightslategray;
+
+	
+} 
+
+p.spancolumns {
+    column-span: all;
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: lightskyblue;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em;
+    margin: .5em;
+    text-align: center;
+}
